@@ -10,6 +10,9 @@ This project is a **fully automated web scraper and AI-powered analyzer** that:
 Developed **in a short timeframe using AI**, this project demonstrates **automation, AI-driven insights, and real-world scraping techniques**.
 
 ---
+## **🎨 User Interface**
+![Streamlit UI Preview](https://github.com/kaistermaister1/Web-Scraper-AI-Analyzer/blob/main/screenshot.png?raw=true)
+---
 
 ## **🔧 Technologies Used**
 | **Technology** | **Purpose** |
