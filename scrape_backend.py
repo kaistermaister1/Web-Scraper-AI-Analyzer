@@ -9,7 +9,7 @@ import os
 app = Flask(__name__)
 
 # OpenAI API Key (Replace with a secure method if needed)
-client = OpenAI(api_key='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',)
+client = OpenAI(api_key='ENTER-HERE',)
 def scrape_website(url):
     visited_urls = set()
     data = []
