@@ -7,6 +7,12 @@ This project is a **fully automated web scraper and AI-powered analyzer** that:
 - Uses **OpenAI’s GPT-4 API** to generate a **custom ChatGPT prompt** based on user goals.
 - Provides an **interactive frontend** using **Streamlit** for ease of use.
 
+💡 **How to Use It:**
+1. **Enter a website URL and a goal** (e.g., "Find internship opportunities").
+2. **Scrape & download the website's content** as a **CSV file**.
+3. **Copy the AI-generated prompt** and paste it into **a model of your choice (e.g., ChatGPT/GPT-4)**.
+4. **Upload the CSV file** to the model to **analyze the extracted data**.
+
 Developed **in a short timeframe using AI**, this project demonstrates **automation, AI-driven insights, and real-world scraping techniques**.
 
 ---
