@@ -18,8 +18,7 @@ Developed **in a short timeframe using AI**, this project demonstrates **automat
 | **Flask** | Backend API for handling requests |
 | **Streamlit** | Frontend UI for user interaction |
 | **BeautifulSoup** | HTML parsing & web scraping |
-| **Selenium** | JavaScript-rendered content scraping |
-| **OpenAI API (GPT-4-Turbo)** | AI-driven content analysis |
+| **OpenAI API (GPT-4o)** | AI-driven content analysis |
 | **Pandas** | CSV data handling |
 
 ---
@@ -28,7 +27,6 @@ Developed **in a short timeframe using AI**, this project demonstrates **automat
 ✅ **Scrape any website** and extract structured text data  
 ✅ **Download scraped content as a CSV file**  
 ✅ **AI-generated analysis prompts** for ChatGPT  
-✅ **JavaScript handling with Selenium** (for dynamic websites)  
 ✅ **User-friendly Streamlit interface**  
 
 ---
@@ -40,7 +38,7 @@ Developed **in a short timeframe using AI**, this project demonstrates **automat
    
 2. **Backend Processing**:
    - Scrapes the entire website and **saves content** in CSV.
-   - Sends the user’s goal to **OpenAI GPT-4** to generate a **smart ChatGPT prompt**.
+   - Sends the user’s goal to **OpenAI GPT-4o** to generate a **smart ChatGPT prompt**.
 
 3. **Frontend Output**:
    - Displays the **AI-generated analysis prompt**.
@@ -48,8 +46,17 @@ Developed **in a short timeframe using AI**, this project demonstrates **automat
 
 ---
 
-## **📥 Installation & Setup**
+## **📥 Installation & Setup**\
+
 ### **1️⃣ Clone the Repository**
-```sh
 git clone https://github.com/YOUR-USERNAME/web-scraper-ai-analyzer.git
 cd web-scraper-ai-analyzer
+
+### 2️⃣ Install Dependencies
+pip install -r requirements.txt
+
+### 3️⃣ Run the Flask Backend
+python scrape_backend.py
+
+### 4️⃣ Run the Streamlit Frontend
+streamlit run app.py
