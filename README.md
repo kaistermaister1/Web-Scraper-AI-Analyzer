@@ -46,7 +46,7 @@ Developed **in a short timeframe using AI**, this project demonstrates **automat
 
 ---
 
-## **📥 Installation & Setup**\
+## **📥 Installation & Setup**
 
 ### **1️⃣ Clone the Repository**
 git clone https://github.com/YOUR-USERNAME/web-scraper-ai-analyzer.git
